@@ -1,0 +1,94 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: rgb(145, 179, 241);
+  font-size: 13px;
+  border-bottom: 0.5px solid rgb(145, 179, 241);
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: yellow;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* form add new Pin */
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(105, 101, 101);
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: antiquewhite;
+  background-color: #e06f2d;
+  cursor: pointer;
+}
+
+/* btn login logout register */
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logout {
+  background-color: tomato;
+}
+
+.login {
+  background-color: rgb(145, 179, 241);
+  margin-right: 10px;
+}
+
+.register {
+  background-color: rgb(145, 179, 241);
+}
+
+.delete {
+  background-color: rgb(72, 112, 199);
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  frontend:
+    container_name: mapping-react
+    build: .
+    ports:
+      - 9000:80
+      # - 443:443
+    restart: always
+
